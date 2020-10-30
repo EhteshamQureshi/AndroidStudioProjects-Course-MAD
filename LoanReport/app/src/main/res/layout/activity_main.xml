@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/logo"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/logo"
+        android:text="Enter car purchase information"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:id="@+id/heading"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the price of your car?  $"
+        android:id="@+id/q1"
+        android:layout_below="@id/heading"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the price of your car?  $"
+        android:id="@+id/q2"
+        android:layout_below="@id/q1"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_alignLeft="@id/q1"
+        android:layout_alignEnd="@id/q1"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="282dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-179dp"
+        android:layout_toEndOf="@+id/q1"
+        android:text="asdfassdfa" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_alignLeft="@id/q2"
+        android:layout_alignEnd="@id/q2"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="-177dp"
+        android:layout_toEndOf="@+id/q2"
+        android:text="asdfa" />
+
+
+</RelativeLayout>

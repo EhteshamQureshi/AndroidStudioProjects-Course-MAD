@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MadLibs</string>
+    <string name="para1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, Nascetur Pellentesque Ridules mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</string>
+    <string name="para2">One of the most &lt;adjective&gt; characters in fiction is named &quot;Tarzan of the &lt;noun&gt;&quot;. Tarzan was raised by a/an &lt;noun&gt; and lives in the &lt;adjective&gt; jungle in the heart of darkest &lt;noun&gt;. He spends most of his time eating &lt;noun&gt; and swinging from tree to &lt;noun&gt;. whenever he gets angry, he beats on his chest and says, " noun!" This is his war cry. Tarzan always dresses in &lt;adjective&gt; shorts made from the skin of a/an &lt;noun&gt; and his friend is a/an &lt;adjective&gt; chimpanzee named Cheetah. He is supposed to be able to speak to elephants and &lt;noun&gt;. in the movies, Tarzan is played by &lt;noun&gt;.</string>
+</resources>

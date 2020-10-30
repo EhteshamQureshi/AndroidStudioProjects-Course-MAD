@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Fragment_Assignment_WhatsApp_View_by_Abdul_Malik'
